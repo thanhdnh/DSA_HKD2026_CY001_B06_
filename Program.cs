@@ -91,6 +91,8 @@ public class LinkedList
         
     }
 }
+//Xây dựng lại DoubleLinkedList với các phương
+//thức tương tự như LinkedList ở trên (singlely)
 public class Program
 {
     static void Main(string[] args)
