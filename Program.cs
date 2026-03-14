@@ -71,6 +71,25 @@ public class LinkedList
     {
         
     }
+    public int CountNode()
+    {
+        Node current = header.link;
+        int count = 0;
+        while (current != null)
+        {
+            current = current.link;
+            count++;
+        }
+        return count;
+    }
+    public int SumNode()
+    {
+        return 0;
+    }
+    public void PrintPythagoreTriplet()
+    {
+        
+    }
 }
 public class Program
 {
@@ -80,8 +99,10 @@ public class Program
         list.Insert("5", "Header");
         list.Insert("10", "5");
         list.Insert("15", "10");
-        list.Print();
-        list.Remove("10");
-        list.Print();
+        //list.Print();
+        //list.Remove("10");
+        //list.Print();
+        int count = list.CountNode();
+        Console.WriteLine($"Count: {count}");
     }
 }
