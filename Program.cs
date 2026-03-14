@@ -55,6 +55,22 @@ public class LinkedList
         }
         Console.WriteLine();
     }
+    public void AddFirst(object newdata)
+    {
+        
+    }
+    public void AddLast(object newdata)
+    {
+        
+    }
+    public void AddAfter(object newnode, object afterelement)
+    {
+        
+    }
+    public void AddBefore(object newnode, object beforeelement)
+    {
+        
+    }
 }
 public class Program
 {
